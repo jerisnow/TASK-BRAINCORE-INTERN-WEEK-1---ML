@@ -5,7 +5,7 @@ from ultralytics import YOLO
 import PySimpleGUI as sg
 
 # Ensure the model file exists
-model_path = 'D:/JOB/Braincore/Task/TASK W1/Model 1/YOLO/model/best_model.pt'
+model_path = '/content/best_model.pt'
 
 if not os.path.isfile(model_path):
     raise FileNotFoundError(f"Model file not found: {model_path}")
