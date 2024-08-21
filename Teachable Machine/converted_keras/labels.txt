@@ -1,0 +1,5 @@
+0 Car
+1 Chair
+2 Door
+3 Table
+4 Person
