@@ -46,8 +46,6 @@ def process_frame(window):
         imgbytes = cv2.imencode('.png', frame)[1].tobytes()
         if window['image']:
             window['image'].update(data=imgbytes)
-        
-    
 
 # Create the layout for the GUI
 layout = [
