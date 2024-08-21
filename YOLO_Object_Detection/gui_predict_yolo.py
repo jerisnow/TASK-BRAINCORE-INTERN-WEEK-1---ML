@@ -51,13 +51,13 @@ def process_frame(window):
 
 # Create the layout for the GUI
 layout = [
-    [sg.Text('Object Detection Display', size=(30, 1), justification='center', font='Helvetica 20')],
+    [sg.Text('Object Detection', size=(30, 1), justification='center', font='Helvetica 20')],
     [sg.Image(filename='', key='image')],
     [sg.Button('Start', size=(10, 1), font='Helvetica 14'), sg.Button('Stop', size=(10, 1), font='Helvetica 14')]
 ]
 
 # Create the main window
-window = sg.Window('Object Detection Display', layout, location=(800, 400))
+window = sg.Window('Object Detection with YOLO', layout, location=(800, 400))
 
 # Event loop to process "Start" and "Stop" button clicks
 start_processing = False
