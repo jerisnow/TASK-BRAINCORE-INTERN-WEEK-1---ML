@@ -2,7 +2,7 @@
 Self Learning about Teachable Machine and YOLO
 
 ## Teachable Machine 
-This repository contains a Keras model converted from Teachable Machine, along with the necessary labels file and a Python GUI script for using the model.
+This repository contains a Keras model converted from Teachable Machine, along with the necessary labels file and a Python GUI script for implement the model.
 
 ### Project Structure
 
@@ -19,8 +19,8 @@ This repository contains a Keras model converted from Teachable Machine, along w
 │   ├── model evaluation tests        # Testing and evaluation scripts
 │   ├── best_model.pt                 # YOLO model's best weights
 │   ├── evaluate_model.py             # Model evaluation script
-│   ├── gui_predict_yolo.py           # GUI to test YOLO object detection
+│   ├── gui_predict_yolo.py           # GUI to implement YOLO object detection
 │   ├── metrics_model.py              # Script for calculating metrics
-│   ├── results.png                   # Example result image
+│   ├── results.png                   # Result image
 │   ├── train_yolo.py                 # Script to train YOLO model
 │   └── yolov8n.pt                    # YOLOv8 weights
