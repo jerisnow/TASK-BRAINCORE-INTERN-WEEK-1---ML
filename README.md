@@ -32,6 +32,9 @@ To test the the Keras model real-time using a graphical interface:
 ```
 python Gui_box.py
 ```
+Link Screen Record of The Prediction Results:
+https://drive.google.com/file/d/1FnlPGHRd8v5QhE-8JpWsHb9B1xV95aP8/view?usp=sharing 
+
 
 ## YOLO
 This repository contains the implementation of a YOLO (You Only Look Once) object detection system and training object detection usinh YOLO (You Only Look Once).
@@ -42,3 +45,5 @@ To test the trained YOLO model real-time using a graphical interface:
 ```
 python gui_predict_yolo.py
 ```
+Link Screen Record of The Prediction Results:
+https://drive.google.com/file/d/106E5TlCJ5GGoElCD8wHGB0uB8FintUJu/view?usp=sharing 
